@@ -1,0 +1,36 @@
+
+.header{
+    background: #056;
+    padding: 40px;
+    text-align: center;
+    color: #086;
+}
+.middle{
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+}
+.middle a{
+    background-color: rgb(220, 114, 230);
+    flex: 33%;
+    float: left;
+    padding: 30px;
+}
+.middle b{
+    background-color: rgb(55, 219, 170);
+    flex: 33%;
+    float: left;
+    padding: 30px;
+}
+.middle c{
+    background-color: rgb(93, 170, 214);
+    flex: 33%;
+    float: left;
+    padding: 30px;
+}
+.footer {
+    background: rgb(186, 189, 146);
+    background-color: rgb(44, 184, 86);
+    padding: 30px;
+
+}
