@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .block-table{
+            margin: 50px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            width: 350px;
+            height:220px;
+            padding: 20px;
+            
+        }
+        .block-table h3{
+            text-align: center;
+            margin-bottom: 10px;
+            color:#993738;
+            font-weight: bold;
+        }
+        .table-main{
+            border-collapse: collapse; 
+            width: 310px;
+            border:1px solid #993738;
+            font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+            
+        }
+        .color-head{
+            background-color:#993738;
+            color: white;
+        }
+        .color-all{
+            background-color:#cccccc;
+        }
+        .align-left{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="block-table">
+        <h3>Exercise example</h3>
+        <table class="table-main" border="1">
+            <thead class="color-head">
+                <th>Region</th>
+                <th class="align-left">Percentage</th>
+            </thead>
+            <tbody>
+                <tr class="color-all">
+                    <td>New England</td>
+                    <td class="align-left">12%</td>
+                </tr>
+                <tr>
+                    <td>Mid-Atlantic</td>
+                    <td class="align-left">19%</td>
+                </tr>
+                <tr class="color-all">
+                    <td>South and Puerto Rico</td>
+                    <td class="align-left">15%</td>
+                </tr>
+                <tr>
+                    <td>Midwest and Plains States</td>
+                    <td class="align-left">12%</td>
+                </tr>
+                <tr class="color-all">
+                    <td>Southwest and Mountain</td>
+                    <td class="align-left">10%</td>
+                </tr>
+                <tr>
+                    <td>West, Alaska , and Hawaii</td>
+                    <td class="align-left">20%</td>
+                </tr>
+                <tr class="color-all">
+                    <td>Abroad</td>
+                    <td class="align-left">13%</td>
+                </tr>
+            </tbody>
+        </table>
+  </div>
+</body>
+</html>
